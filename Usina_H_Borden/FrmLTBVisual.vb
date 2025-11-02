@@ -49,7 +49,7 @@
             'MsgBox("teste)")
 
         ElseIf StrOperacaoLTB = "Visualizar" Then
-            Label6.Text = "Licença paraaa Trabalhar - Visualização"
+            Label6.Text = "Licença para Trabalhar - Visualização"
             ExibirDados()
             TravaControles()
             Button1.Enabled = True
