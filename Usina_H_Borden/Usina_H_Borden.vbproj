@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{03E67833-4B6F-42CE-B269-1C90DD2A35E3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Usina_H_Borden.My.MyApplication</StartupObject>
+    <RootNamespace>Usina_H_Borden</RootNamespace>
+    <AssemblyName>Usina_H_Borden</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Usina_H_Borden.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Usina_H_Borden.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>raio1.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox1.designer.vb">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AboutBox1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Alarmes.Designer.vb">
+      <DependentUpon>Alarmes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alarmes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlarmesDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlarmesDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AlarmesDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AlarmesDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dados_CVDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Dados_CVDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSetPessoal.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetPessoal.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbGeralDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbGeralDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbGeralDataSet.vb">
+      <DependentUpon>dbGeralDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbGeralDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbGeralDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbGeralDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbGeralDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbGeralDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbGeralDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbGeralDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbGeralDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbGeralDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbGeralDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbGeralDataSet6.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbGeralDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.Designer.vb">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmArvoreEquipamentos.designer.vb">
+      <DependentUpon>frmArvoreEquipamentos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmArvoreEquipamentos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetalhesUnidade.Designer.vb">
+      <DependentUpon>frmDetalhesUnidade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetalhesUnidade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEncerramentoLtb.Designer.vb">
+      <DependentUpon>frmEncerramentoLtb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEncerramentoLtb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLTBLista.designer.vb">
+      <DependentUpon>FrmLTBLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLTBLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLTBVisual.designer.vb">
+      <DependentUpon>FrmLTBVisual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLTBVisual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMedidoresHorario.Designer.vb">
+      <DependentUpon>frmMedidoresHorario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMedidoresHorario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelAlarmes.Designer.vb">
+      <DependentUpon>frmRelAlarmes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelAlarmes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelatorio.Designer.vb">
+      <DependentUpon>frmRelatorio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelatorio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelGraficos.Designer.vb">
+      <DependentUpon>frmRelGraficos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelGraficos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelLTB.designer.vb">
+      <DependentUpon>frmRelLTB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelLTB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRelVazao.Designer.vb">
+      <DependentUpon>frmRelVazao.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRelVazao.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnidade.Designer.vb">
+      <DependentUpon>frmUnidade.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUnidade.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVazaoLista.Designer.vb">
+      <DependentUpon>frmVazaoLista.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVazaoLista.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modGlobal.vb" />
+    <Compile Include="modUHB.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FrmInstante.Designer.vb">
+      <DependentUpon>FrmInstante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInstante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AboutBox1.resx">
+      <DependentUpon>AboutBox1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alarmes.resx">
+      <DependentUpon>Alarmes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmArvoreEquipamentos.resx">
+      <DependentUpon>frmArvoreEquipamentos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetalhesUnidade.resx">
+      <DependentUpon>frmDetalhesUnidade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEncerramentoLtb.resx">
+      <DependentUpon>frmEncerramentoLtb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLTBLista.resx">
+      <DependentUpon>FrmLTBLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLTBVisual.resx">
+      <DependentUpon>FrmLTBVisual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMedidoresHorario.resx">
+      <DependentUpon>frmMedidoresHorario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelAlarmes.resx">
+      <DependentUpon>frmRelAlarmes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelatorio.resx">
+      <DependentUpon>frmRelatorio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelGraficos.resx">
+      <DependentUpon>frmRelGraficos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelLTB.resx">
+      <DependentUpon>frmRelLTB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRelVazao.resx">
+      <DependentUpon>frmRelVazao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnidade.resx">
+      <DependentUpon>frmUnidade.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVazaoLista.resx">
+      <DependentUpon>frmVazaoLista.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInstante.resx">
+      <DependentUpon>FrmInstante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Report4.rdlc" />
+    <EmbeddedResource Include="rptAlarmes.rdlc" />
+    <EmbeddedResource Include="rptLTB.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AlarmesDataSet.xsc">
+      <DependentUpon>AlarmesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AlarmesDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AlarmesDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AlarmesDataSet.xss">
+      <DependentUpon>AlarmesDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="AlarmesDataSet1.xsc">
+      <DependentUpon>AlarmesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="AlarmesDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>AlarmesDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="AlarmesDataSet1.xss">
+      <DependentUpon>AlarmesDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Dados_CVDataSet.xsc">
+      <DependentUpon>Dados_CVDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Dados_CVDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Dados_CVDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Dados_CVDataSet.xss">
+      <DependentUpon>Dados_CVDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPessoal.xsc">
+      <DependentUpon>DataSetPessoal.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetPessoal.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetPessoal.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSetPessoal.xss">
+      <DependentUpon>DataSetPessoal.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet.xsc">
+      <DependentUpon>dbGeralDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbGeralDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbGeralDataSet.xss">
+      <DependentUpon>dbGeralDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet1.xsc">
+      <DependentUpon>dbGeralDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbGeralDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbGeralDataSet1.xss">
+      <DependentUpon>dbGeralDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet2.xsc">
+      <DependentUpon>dbGeralDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbGeralDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbGeralDataSet2.xss">
+      <DependentUpon>dbGeralDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet3.xsc">
+      <DependentUpon>dbGeralDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbGeralDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbGeralDataSet3.xss">
+      <DependentUpon>dbGeralDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet4.xsc">
+      <DependentUpon>dbGeralDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbGeralDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbGeralDataSet4.xss">
+      <DependentUpon>dbGeralDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet5.xsc">
+      <DependentUpon>dbGeralDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbGeralDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbGeralDataSet5.xss">
+      <DependentUpon>dbGeralDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet6.xsc">
+      <DependentUpon>dbGeralDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="dbGeralDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbGeralDataSet6.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbGeralDataSet6.xss">
+      <DependentUpon>dbGeralDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="raio1.ico" />
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

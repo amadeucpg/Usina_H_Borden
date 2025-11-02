@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbGeralDataSet2" targetNamespace="http://tempuri.org/dbGeralDataSet2.xsd" xmlns:mstns="http://tempuri.org/dbGeralDataSet2.xsd" xmlns="http://tempuri.org/dbGeralDataSet2.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="dbGeralConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbGeralConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Usina_H_Borden.My.MySettings.GlobalReference.Default.dbGeralConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Hist__MedidoresTableAdapter" GeneratorDataComponentClassName="Hist__MedidoresTableAdapter" Name="Hist__Medidores" UserDataComponentName="Hist__MedidoresTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbGeralConnectionString (MySettings)" DbObjectName="dbGeral.dbo.Hist__Medidores" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT E3TimeStamp, Unidade_1_P_Ativa, Unidade_2_P_Ativa, Unidade_3_P_Ativa, Unidade_4_P_Ativa, Unidade_5_P_Ativa, Unidade_6_P_Ativa, Unidade_7_P_Ativa, Unidade_8_P_Ativa FROM dbo.Hist__Medidores</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="E3TimeStamp" DataSetColumn="E3TimeStamp" />
+              <Mapping SourceColumn="Unidade_1_P_Ativa" DataSetColumn="Unidade_1_P_Ativa" />
+              <Mapping SourceColumn="Unidade_2_P_Ativa" DataSetColumn="Unidade_2_P_Ativa" />
+              <Mapping SourceColumn="Unidade_3_P_Ativa" DataSetColumn="Unidade_3_P_Ativa" />
+              <Mapping SourceColumn="Unidade_4_P_Ativa" DataSetColumn="Unidade_4_P_Ativa" />
+              <Mapping SourceColumn="Unidade_5_P_Ativa" DataSetColumn="Unidade_5_P_Ativa" />
+              <Mapping SourceColumn="Unidade_6_P_Ativa" DataSetColumn="Unidade_6_P_Ativa" />
+              <Mapping SourceColumn="Unidade_7_P_Ativa" DataSetColumn="Unidade_7_P_Ativa" />
+              <Mapping SourceColumn="Unidade_8_P_Ativa" DataSetColumn="Unidade_8_P_Ativa" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbGeralDataSet2" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dbGeralDataSet2" msprop:Generator_UserDSName="dbGeralDataSet2">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Hist__Medidores" msprop:Generator_TableClassName="Hist__MedidoresDataTable" msprop:Generator_TableVarName="tableHist__Medidores" msprop:Generator_TablePropName="Hist__Medidores" msprop:Generator_RowDeletingName="Hist__MedidoresRowDeleting" msprop:Generator_RowChangingName="Hist__MedidoresRowChanging" msprop:Generator_RowEvHandlerName="Hist__MedidoresRowChangeEventHandler" msprop:Generator_RowDeletedName="Hist__MedidoresRowDeleted" msprop:Generator_UserTableName="Hist__Medidores" msprop:Generator_RowChangedName="Hist__MedidoresRowChanged" msprop:Generator_RowEvArgName="Hist__MedidoresRowChangeEvent" msprop:Generator_RowClassName="Hist__MedidoresRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="E3TimeStamp" msprop:Generator_ColumnVarNameInTable="columnE3TimeStamp" msprop:Generator_ColumnPropNameInRow="E3TimeStamp" msprop:Generator_ColumnPropNameInTable="E3TimeStampColumn" msprop:Generator_UserColumnName="E3TimeStamp" type="xs:dateTime" />
+              <xs:element name="Unidade_1_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_1_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_1_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_1_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_1_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_2_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_2_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_2_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_2_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_2_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_3_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_3_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_3_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_3_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_3_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_4_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_4_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_4_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_4_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_4_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_5_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_5_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_5_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_5_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_5_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_6_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_6_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_6_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_6_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_6_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_7_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_7_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_7_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_7_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_7_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_8_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_8_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_8_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_8_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_8_P_Ativa" type="xs:double" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

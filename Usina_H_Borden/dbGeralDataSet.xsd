@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dbGeralDataSet" targetNamespace="http://tempuri.org/dbGeralDataSet.xsd" xmlns:mstns="http://tempuri.org/dbGeralDataSet.xsd" xmlns="http://tempuri.org/dbGeralDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="dbGeralConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="dbGeralConnectionString (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Usina_H_Borden.My.MySettings.GlobalReference.Default.dbGeralConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="ViewMedidoresHorarioTableAdapter" GeneratorDataComponentClassName="ViewMedidoresHorarioTableAdapter" Name="ViewMedidoresHorario" UserDataComponentName="ViewMedidoresHorarioTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbGeralConnectionString (MySettings)" DbObjectName="dbGeral.dbo.ViewMedidoresHorario" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT E3TimeStamp, Unidade_1_P_Ativa, Unidade_1_P_Reativa, Unidade_2_P_Ativa, Unidade_2_P_Reativa, Unidade_3_P_Ativa, Unidade_3_P_Reativa, Unidade_4_P_Ativa, Unidade_4_P_Reativa, Unidade_5_P_Ativa, Unidade_5_P_Reativa, Unidade_6_P_Ativa, Unidade_6_P_Reativa, Unidade_7_P_Ativa, Unidade_7_P_Reativa, Unidade_8_P_Ativa, Unidade_8_P_Reativa, Unidade_11_P_Ativa, Unidade_11_P_Reativa, Unidade_12_P_Ativa, Unidade_12_P_Reativa, Unidade_13_P_Ativa, Unidade_13_P_Reativa, Unidade_14_P_Ativa, Unidade_14_P_Reativa, Unidade_15_P_Ativa, Unidade_15_P_Reativa, Unidade_16_P_Ativa, Unidade_16_P_Reativa, AtivaExt, AtivaSub, ReativaExt, ReativaSub FROM ViewMedidoresHorario</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="E3TimeStamp" DataSetColumn="E3TimeStamp" />
+              <Mapping SourceColumn="Unidade_1_P_Ativa" DataSetColumn="Unidade_1_P_Ativa" />
+              <Mapping SourceColumn="Unidade_1_P_Reativa" DataSetColumn="Unidade_1_P_Reativa" />
+              <Mapping SourceColumn="Unidade_2_P_Ativa" DataSetColumn="Unidade_2_P_Ativa" />
+              <Mapping SourceColumn="Unidade_2_P_Reativa" DataSetColumn="Unidade_2_P_Reativa" />
+              <Mapping SourceColumn="Unidade_3_P_Ativa" DataSetColumn="Unidade_3_P_Ativa" />
+              <Mapping SourceColumn="Unidade_3_P_Reativa" DataSetColumn="Unidade_3_P_Reativa" />
+              <Mapping SourceColumn="Unidade_4_P_Ativa" DataSetColumn="Unidade_4_P_Ativa" />
+              <Mapping SourceColumn="Unidade_4_P_Reativa" DataSetColumn="Unidade_4_P_Reativa" />
+              <Mapping SourceColumn="Unidade_5_P_Ativa" DataSetColumn="Unidade_5_P_Ativa" />
+              <Mapping SourceColumn="Unidade_5_P_Reativa" DataSetColumn="Unidade_5_P_Reativa" />
+              <Mapping SourceColumn="Unidade_6_P_Ativa" DataSetColumn="Unidade_6_P_Ativa" />
+              <Mapping SourceColumn="Unidade_6_P_Reativa" DataSetColumn="Unidade_6_P_Reativa" />
+              <Mapping SourceColumn="Unidade_7_P_Ativa" DataSetColumn="Unidade_7_P_Ativa" />
+              <Mapping SourceColumn="Unidade_7_P_Reativa" DataSetColumn="Unidade_7_P_Reativa" />
+              <Mapping SourceColumn="Unidade_8_P_Ativa" DataSetColumn="Unidade_8_P_Ativa" />
+              <Mapping SourceColumn="Unidade_8_P_Reativa" DataSetColumn="Unidade_8_P_Reativa" />
+              <Mapping SourceColumn="Unidade_11_P_Ativa" DataSetColumn="Unidade_11_P_Ativa" />
+              <Mapping SourceColumn="Unidade_11_P_Reativa" DataSetColumn="Unidade_11_P_Reativa" />
+              <Mapping SourceColumn="Unidade_12_P_Ativa" DataSetColumn="Unidade_12_P_Ativa" />
+              <Mapping SourceColumn="Unidade_12_P_Reativa" DataSetColumn="Unidade_12_P_Reativa" />
+              <Mapping SourceColumn="Unidade_13_P_Ativa" DataSetColumn="Unidade_13_P_Ativa" />
+              <Mapping SourceColumn="Unidade_13_P_Reativa" DataSetColumn="Unidade_13_P_Reativa" />
+              <Mapping SourceColumn="Unidade_14_P_Ativa" DataSetColumn="Unidade_14_P_Ativa" />
+              <Mapping SourceColumn="Unidade_14_P_Reativa" DataSetColumn="Unidade_14_P_Reativa" />
+              <Mapping SourceColumn="Unidade_15_P_Ativa" DataSetColumn="Unidade_15_P_Ativa" />
+              <Mapping SourceColumn="Unidade_15_P_Reativa" DataSetColumn="Unidade_15_P_Reativa" />
+              <Mapping SourceColumn="Unidade_16_P_Ativa" DataSetColumn="Unidade_16_P_Ativa" />
+              <Mapping SourceColumn="Unidade_16_P_Reativa" DataSetColumn="Unidade_16_P_Reativa" />
+              <Mapping SourceColumn="AtivaExt" DataSetColumn="AtivaExt" />
+              <Mapping SourceColumn="ReativaExt" DataSetColumn="ReativaExt" />
+              <Mapping SourceColumn="AtivaSub" DataSetColumn="AtivaSub" />
+              <Mapping SourceColumn="ReativaSub" DataSetColumn="ReativaSub" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LTBTableAdapter" GeneratorDataComponentClassName="LTBTableAdapter" Name="LTB" UserDataComponentName="LTBTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbGeralConnectionString (MySettings)" DbObjectName="dbGeral.dbo.LTB" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [LTB] ([Local], [Unidade], [Equipamento], [Tempo], [HoraInicio], [DataInicio], [HoraFinal], [DataFinal], [Finalidade], [Habilitado], [Autorizado], [HoraAutorizado], [DataAutorizado], [Ods], [Observacao], [PrazoDisponibilidade], [ExpAutorizado], [HoraExpAutorizado], [DataExpAutorizado], [CaixaSeguranca], [PrevTempo]) VALUES (@Local, @Unidade, @Equipamento, @Tempo, @HoraInicio, @DataInicio, @HoraFinal, @DataFinal, @Finalidade, @Habilitado, @Autorizado, @HoraAutorizado, @DataAutorizado, @Ods, @Observacao, @PrazoDisponibilidade, @ExpAutorizado, @HoraExpAutorizado, @DataExpAutorizado, @CaixaSeguranca, @PrevTempo)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Local" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Local" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Unidade" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Unidade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Equipamento" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Equipamento" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Tempo" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Tempo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@HoraInicio" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="HoraInicio" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@DataInicio" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DataInicio" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@HoraFinal" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="HoraFinal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@DataFinal" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DataFinal" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Finalidade" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Finalidade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Habilitado" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Habilitado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Autorizado" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Autorizado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@HoraAutorizado" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="HoraAutorizado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@DataAutorizado" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DataAutorizado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Ods" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Ods" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Observacao" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Observacao" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PrazoDisponibilidade" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PrazoDisponibilidade" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@ExpAutorizado" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="ExpAutorizado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@HoraExpAutorizado" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="HoraExpAutorizado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Date" Direction="Input" ParameterName="@DataExpAutorizado" Precision="0" ProviderType="Date" Scale="0" Size="0" SourceColumn="DataExpAutorizado" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@CaixaSeguranca" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="CaixaSeguranca" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@PrevTempo" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="PrevTempo" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        LTB.*
+FROM            LTB</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="NumLic" DataSetColumn="NumLic" />
+              <Mapping SourceColumn="Local" DataSetColumn="Local" />
+              <Mapping SourceColumn="Unidade" DataSetColumn="Unidade" />
+              <Mapping SourceColumn="Equipamento" DataSetColumn="Equipamento" />
+              <Mapping SourceColumn="Tempo" DataSetColumn="Tempo" />
+              <Mapping SourceColumn="HoraInicio" DataSetColumn="HoraInicio" />
+              <Mapping SourceColumn="DataInicio" DataSetColumn="DataInicio" />
+              <Mapping SourceColumn="HoraFinal" DataSetColumn="HoraFinal" />
+              <Mapping SourceColumn="DataFinal" DataSetColumn="DataFinal" />
+              <Mapping SourceColumn="Finalidade" DataSetColumn="Finalidade" />
+              <Mapping SourceColumn="Habilitado" DataSetColumn="Habilitado" />
+              <Mapping SourceColumn="Autorizado" DataSetColumn="Autorizado" />
+              <Mapping SourceColumn="HoraAutorizado" DataSetColumn="HoraAutorizado" />
+              <Mapping SourceColumn="DataAutorizado" DataSetColumn="DataAutorizado" />
+              <Mapping SourceColumn="Ods" DataSetColumn="Ods" />
+              <Mapping SourceColumn="Observacao" DataSetColumn="Observacao" />
+              <Mapping SourceColumn="PrazoDisponibilidade" DataSetColumn="PrazoDisponibilidade" />
+              <Mapping SourceColumn="ExpAutorizado" DataSetColumn="ExpAutorizado" />
+              <Mapping SourceColumn="HoraExpAutorizado" DataSetColumn="HoraExpAutorizado" />
+              <Mapping SourceColumn="DataExpAutorizado" DataSetColumn="DataExpAutorizado" />
+              <Mapping SourceColumn="CaixaSeguranca" DataSetColumn="CaixaSeguranca" />
+              <Mapping SourceColumn="PrevTempo" DataSetColumn="PrevTempo" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="LogEventosTableAdapter" GeneratorDataComponentClassName="LogEventosTableAdapter" Name="LogEventos" UserDataComponentName="LogEventosTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="dbGeralConnectionString (MySettings)" DbObjectName="dbGeral.dbo.LogEventos" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <InsertCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>INSERT INTO [LogEventos] ([Formulario], [Operacao], [Numero], [Data], [Hora], [Usuario], [Evento], [Detalhe]) VALUES (@Formulario, @Operacao, @Numero, @Data, @Hora, @Usuario, @Evento, @Detalhe)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Formulario" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Formulario" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Operacao" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Operacao" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="Int32" Direction="Input" ParameterName="@Numero" Precision="0" ProviderType="Int" Scale="0" Size="0" SourceColumn="Numero" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="DateTime" Direction="Input" ParameterName="@Data" Precision="0" ProviderType="DateTime" Scale="0" Size="0" SourceColumn="Data" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Hora" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Hora" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Usuario" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Usuario" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="false" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Evento" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Evento" SourceColumnNullMapping="false" SourceVersion="Current" />
+                      <Parameter AllowDbNull="true" AutogeneratedName="" DataSourceName="" DbType="String" Direction="Input" ParameterName="@Detalhe" Precision="0" ProviderType="NVarChar" Scale="0" Size="0" SourceColumn="Detalhe" SourceColumnNullMapping="false" SourceVersion="Current" />
+                    </Parameters>
+                  </DbCommand>
+                </InsertCommand>
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        LogEventos.*
+FROM            LogEventos</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ID" DataSetColumn="ID" />
+              <Mapping SourceColumn="Formulario" DataSetColumn="Formulario" />
+              <Mapping SourceColumn="Operacao" DataSetColumn="Operacao" />
+              <Mapping SourceColumn="Numero" DataSetColumn="Numero" />
+              <Mapping SourceColumn="Data" DataSetColumn="Data" />
+              <Mapping SourceColumn="Hora" DataSetColumn="Hora" />
+              <Mapping SourceColumn="Usuario" DataSetColumn="Usuario" />
+              <Mapping SourceColumn="Evento" DataSetColumn="Evento" />
+              <Mapping SourceColumn="Detalhe" DataSetColumn="Detalhe" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dbGeralDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="dbGeralDataSet" msprop:Generator_UserDSName="dbGeralDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ViewMedidoresHorario" msprop:Generator_TableClassName="ViewMedidoresHorarioDataTable" msprop:Generator_TableVarName="tableViewMedidoresHorario" msprop:Generator_RowChangedName="ViewMedidoresHorarioRowChanged" msprop:Generator_TablePropName="ViewMedidoresHorario" msprop:Generator_RowDeletingName="ViewMedidoresHorarioRowDeleting" msprop:Generator_RowChangingName="ViewMedidoresHorarioRowChanging" msprop:Generator_RowEvHandlerName="ViewMedidoresHorarioRowChangeEventHandler" msprop:Generator_RowDeletedName="ViewMedidoresHorarioRowDeleted" msprop:Generator_RowClassName="ViewMedidoresHorarioRow" msprop:Generator_UserTableName="ViewMedidoresHorario" msprop:Generator_RowEvArgName="ViewMedidoresHorarioRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="E3TimeStamp" msprop:Generator_ColumnVarNameInTable="columnE3TimeStamp" msprop:Generator_ColumnPropNameInRow="E3TimeStamp" msprop:Generator_ColumnPropNameInTable="E3TimeStampColumn" msprop:Generator_UserColumnName="E3TimeStamp" type="xs:dateTime" />
+              <xs:element name="Unidade_1_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_1_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_1_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_1_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_1_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_1_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_1_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_1_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_1_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_1_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_2_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_2_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_2_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_2_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_2_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_2_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_2_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_2_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_2_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_2_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_3_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_3_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_3_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_3_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_3_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_3_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_3_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_3_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_3_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_3_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_4_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_4_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_4_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_4_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_4_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_4_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_4_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_4_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_4_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_4_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_5_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_5_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_5_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_5_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_5_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_5_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_5_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_5_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_5_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_5_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_6_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_6_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_6_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_6_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_6_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_6_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_6_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_6_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_6_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_6_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_7_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_7_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_7_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_7_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_7_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_7_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_7_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_7_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_7_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_7_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_8_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_8_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_8_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_8_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_8_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_8_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_8_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_8_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_8_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_8_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_11_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_11_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_11_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_11_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_11_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_11_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_11_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_11_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_11_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_11_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_12_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_12_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_12_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_12_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_12_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_12_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_12_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_12_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_12_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_12_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_13_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_13_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_13_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_13_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_13_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_13_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_13_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_13_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_13_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_13_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_14_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_14_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_14_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_14_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_14_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_14_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_14_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_14_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_14_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_14_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_15_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_15_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_15_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_15_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_15_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_15_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_15_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_15_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_15_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_15_P_Reativa" type="xs:double" />
+              <xs:element name="Unidade_16_P_Ativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_16_P_Ativa" msprop:Generator_ColumnPropNameInRow="Unidade_16_P_Ativa" msprop:Generator_ColumnPropNameInTable="Unidade_16_P_AtivaColumn" msprop:Generator_UserColumnName="Unidade_16_P_Ativa" type="xs:double" />
+              <xs:element name="Unidade_16_P_Reativa" msprop:Generator_ColumnVarNameInTable="columnUnidade_16_P_Reativa" msprop:Generator_ColumnPropNameInRow="Unidade_16_P_Reativa" msprop:Generator_ColumnPropNameInTable="Unidade_16_P_ReativaColumn" msprop:Generator_UserColumnName="Unidade_16_P_Reativa" type="xs:double" />
+              <xs:element name="AtivaExt" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAtivaExt" msprop:Generator_ColumnPropNameInRow="AtivaExt" msprop:Generator_ColumnPropNameInTable="AtivaExtColumn" msprop:Generator_UserColumnName="AtivaExt" type="xs:double" minOccurs="0" />
+              <xs:element name="ReativaExt" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnReativaExt" msprop:Generator_ColumnPropNameInRow="ReativaExt" msprop:Generator_ColumnPropNameInTable="ReativaExtColumn" msprop:Generator_UserColumnName="ReativaExt" type="xs:double" minOccurs="0" />
+              <xs:element name="AtivaSub" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnAtivaSub" msprop:Generator_ColumnPropNameInRow="AtivaSub" msprop:Generator_ColumnPropNameInTable="AtivaSubColumn" msprop:Generator_UserColumnName="AtivaSub" type="xs:double" minOccurs="0" />
+              <xs:element name="ReativaSub" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnReativaSub" msprop:Generator_ColumnPropNameInRow="ReativaSub" msprop:Generator_ColumnPropNameInTable="ReativaSubColumn" msprop:Generator_UserColumnName="ReativaSub" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LTB" msprop:Generator_TableClassName="LTBDataTable" msprop:Generator_TableVarName="tableLTB" msprop:Generator_RowChangedName="LTBRowChanged" msprop:Generator_TablePropName="LTB" msprop:Generator_RowDeletingName="LTBRowDeleting" msprop:Generator_RowChangingName="LTBRowChanging" msprop:Generator_RowEvHandlerName="LTBRowChangeEventHandler" msprop:Generator_RowDeletedName="LTBRowDeleted" msprop:Generator_RowClassName="LTBRow" msprop:Generator_UserTableName="LTB" msprop:Generator_RowEvArgName="LTBRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NumLic" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnNumLic" msprop:Generator_ColumnPropNameInRow="NumLic" msprop:Generator_ColumnPropNameInTable="NumLicColumn" msprop:Generator_UserColumnName="NumLic" type="xs:int" />
+              <xs:element name="Local" msprop:Generator_ColumnVarNameInTable="columnLocal" msprop:Generator_ColumnPropNameInRow="Local" msprop:Generator_ColumnPropNameInTable="LocalColumn" msprop:Generator_UserColumnName="Local" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Unidade" msprop:Generator_ColumnVarNameInTable="columnUnidade" msprop:Generator_ColumnPropNameInRow="Unidade" msprop:Generator_ColumnPropNameInTable="UnidadeColumn" msprop:Generator_UserColumnName="Unidade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Equipamento" msprop:Generator_ColumnVarNameInTable="columnEquipamento" msprop:Generator_ColumnPropNameInRow="Equipamento" msprop:Generator_ColumnPropNameInTable="EquipamentoColumn" msprop:Generator_UserColumnName="Equipamento" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Tempo" msprop:Generator_ColumnVarNameInTable="columnTempo" msprop:Generator_ColumnPropNameInRow="Tempo" msprop:Generator_ColumnPropNameInTable="TempoColumn" msprop:Generator_UserColumnName="Tempo" type="xs:int" minOccurs="0" />
+              <xs:element name="HoraInicio" msprop:Generator_ColumnVarNameInTable="columnHoraInicio" msprop:Generator_ColumnPropNameInRow="HoraInicio" msprop:Generator_ColumnPropNameInTable="HoraInicioColumn" msprop:Generator_UserColumnName="HoraInicio" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataInicio" msprop:Generator_ColumnVarNameInTable="columnDataInicio" msprop:Generator_ColumnPropNameInRow="DataInicio" msprop:Generator_ColumnPropNameInTable="DataInicioColumn" msprop:Generator_UserColumnName="DataInicio" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="HoraFinal" msprop:Generator_ColumnVarNameInTable="columnHoraFinal" msprop:Generator_ColumnPropNameInRow="HoraFinal" msprop:Generator_ColumnPropNameInTable="HoraFinalColumn" msprop:Generator_UserColumnName="HoraFinal" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataFinal" msprop:Generator_ColumnVarNameInTable="columnDataFinal" msprop:Generator_ColumnPropNameInRow="DataFinal" msprop:Generator_ColumnPropNameInTable="DataFinalColumn" msprop:Generator_UserColumnName="DataFinal" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Finalidade" msprop:Generator_ColumnVarNameInTable="columnFinalidade" msprop:Generator_ColumnPropNameInRow="Finalidade" msprop:Generator_ColumnPropNameInTable="FinalidadeColumn" msprop:Generator_UserColumnName="Finalidade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Habilitado" msprop:Generator_ColumnVarNameInTable="columnHabilitado" msprop:Generator_ColumnPropNameInRow="Habilitado" msprop:Generator_ColumnPropNameInTable="HabilitadoColumn" msprop:Generator_UserColumnName="Habilitado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Autorizado" msprop:Generator_ColumnVarNameInTable="columnAutorizado" msprop:Generator_ColumnPropNameInRow="Autorizado" msprop:Generator_ColumnPropNameInTable="AutorizadoColumn" msprop:Generator_UserColumnName="Autorizado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HoraAutorizado" msprop:Generator_ColumnVarNameInTable="columnHoraAutorizado" msprop:Generator_ColumnPropNameInRow="HoraAutorizado" msprop:Generator_ColumnPropNameInTable="HoraAutorizadoColumn" msprop:Generator_UserColumnName="HoraAutorizado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataAutorizado" msprop:Generator_ColumnVarNameInTable="columnDataAutorizado" msprop:Generator_ColumnPropNameInRow="DataAutorizado" msprop:Generator_ColumnPropNameInTable="DataAutorizadoColumn" msprop:Generator_UserColumnName="DataAutorizado" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Ods" msprop:Generator_ColumnVarNameInTable="columnOds" msprop:Generator_ColumnPropNameInRow="Ods" msprop:Generator_ColumnPropNameInTable="OdsColumn" msprop:Generator_UserColumnName="Ods" type="xs:int" minOccurs="0" />
+              <xs:element name="Observacao" msprop:Generator_ColumnVarNameInTable="columnObservacao" msprop:Generator_ColumnPropNameInRow="Observacao" msprop:Generator_ColumnPropNameInTable="ObservacaoColumn" msprop:Generator_UserColumnName="Observacao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrazoDisponibilidade" msprop:Generator_ColumnVarNameInTable="columnPrazoDisponibilidade" msprop:Generator_ColumnPropNameInRow="PrazoDisponibilidade" msprop:Generator_ColumnPropNameInTable="PrazoDisponibilidadeColumn" msprop:Generator_UserColumnName="PrazoDisponibilidade" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ExpAutorizado" msprop:Generator_ColumnVarNameInTable="columnExpAutorizado" msprop:Generator_ColumnPropNameInRow="ExpAutorizado" msprop:Generator_ColumnPropNameInTable="ExpAutorizadoColumn" msprop:Generator_UserColumnName="ExpAutorizado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="80" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="HoraExpAutorizado" msprop:Generator_ColumnVarNameInTable="columnHoraExpAutorizado" msprop:Generator_ColumnPropNameInRow="HoraExpAutorizado" msprop:Generator_ColumnPropNameInTable="HoraExpAutorizadoColumn" msprop:Generator_UserColumnName="HoraExpAutorizado" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataExpAutorizado" msprop:Generator_ColumnVarNameInTable="columnDataExpAutorizado" msprop:Generator_ColumnPropNameInRow="DataExpAutorizado" msprop:Generator_ColumnPropNameInTable="DataExpAutorizadoColumn" msprop:Generator_UserColumnName="DataExpAutorizado" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="CaixaSeguranca" msprop:Generator_ColumnVarNameInTable="columnCaixaSeguranca" msprop:Generator_ColumnPropNameInRow="CaixaSeguranca" msprop:Generator_ColumnPropNameInTable="CaixaSegurancaColumn" msprop:Generator_UserColumnName="CaixaSeguranca" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PrevTempo" msprop:Generator_ColumnVarNameInTable="columnPrevTempo" msprop:Generator_ColumnPropNameInRow="PrevTempo" msprop:Generator_ColumnPropNameInTable="PrevTempoColumn" msprop:Generator_UserColumnName="PrevTempo" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LogEventos" msprop:Generator_TableClassName="LogEventosDataTable" msprop:Generator_TableVarName="tableLogEventos" msprop:Generator_TablePropName="LogEventos" msprop:Generator_RowDeletingName="LogEventosRowDeleting" msprop:Generator_RowChangingName="LogEventosRowChanging" msprop:Generator_RowEvHandlerName="LogEventosRowChangeEventHandler" msprop:Generator_RowDeletedName="LogEventosRowDeleted" msprop:Generator_UserTableName="LogEventos" msprop:Generator_RowChangedName="LogEventosRowChanged" msprop:Generator_RowEvArgName="LogEventosRowChangeEvent" msprop:Generator_RowClassName="LogEventosRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+              <xs:element name="Formulario" msprop:Generator_ColumnVarNameInTable="columnFormulario" msprop:Generator_ColumnPropNameInRow="Formulario" msprop:Generator_ColumnPropNameInTable="FormularioColumn" msprop:Generator_UserColumnName="Formulario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Operacao" msprop:Generator_ColumnVarNameInTable="columnOperacao" msprop:Generator_ColumnPropNameInRow="Operacao" msprop:Generator_ColumnPropNameInTable="OperacaoColumn" msprop:Generator_UserColumnName="Operacao" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Numero" msprop:Generator_ColumnVarNameInTable="columnNumero" msprop:Generator_ColumnPropNameInRow="Numero" msprop:Generator_ColumnPropNameInTable="NumeroColumn" msprop:Generator_UserColumnName="Numero" type="xs:int" minOccurs="0" />
+              <xs:element name="Data" msprop:Generator_ColumnVarNameInTable="columnData" msprop:Generator_ColumnPropNameInRow="Data" msprop:Generator_ColumnPropNameInTable="DataColumn" msprop:Generator_UserColumnName="Data" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Hora" msprop:Generator_ColumnVarNameInTable="columnHora" msprop:Generator_ColumnPropNameInRow="Hora" msprop:Generator_ColumnPropNameInTable="HoraColumn" msprop:Generator_UserColumnName="Hora" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Usuario" msprop:Generator_ColumnVarNameInTable="columnUsuario" msprop:Generator_ColumnPropNameInRow="Usuario" msprop:Generator_ColumnPropNameInTable="UsuarioColumn" msprop:Generator_UserColumnName="Usuario" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Evento" msprop:Generator_ColumnVarNameInTable="columnEvento" msprop:Generator_ColumnPropNameInRow="Evento" msprop:Generator_ColumnPropNameInTable="EventoColumn" msprop:Generator_UserColumnName="Evento">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Detalhe" msprop:Generator_ColumnVarNameInTable="columnDetalhe" msprop:Generator_ColumnPropNameInRow="Detalhe" msprop:Generator_ColumnPropNameInTable="DetalheColumn" msprop:Generator_UserColumnName="Detalhe" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4000" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

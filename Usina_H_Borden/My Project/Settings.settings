@@ -1,0 +1,52 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="UG6ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=UG6;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=UG6;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022</Value>
+    </Setting>
+    <Setting Name="AlarmesConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=Alarmes;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=Alarmes;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022</Value>
+    </Setting>
+    <Setting Name="dbGeralConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=dbGeral;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=dbGeral;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022</Value>
+    </Setting>
+    <Setting Name="dbAlarmes" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=Alarmes;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=Alarmes;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022</Value>
+    </Setting>
+    <Setting Name="dbGeral" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=dbGeral;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022&lt;/ConnectionString&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=172.17.4.95\ELIPSEDATA;Initial Catalog=dbGeral;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022</Value>
+    </Setting>
+    <Setting Name="Dados_CVConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=SRVMACKENZIE\ELIPSEDATA;Initial Catalog=Dados_CV;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022;ApplicationIntent=ReadOnly&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=SRVMACKENZIE\ELIPSEDATA;Initial Catalog=Dados_CV;Persist Security Info=True;User ID=emae@elipse;Password=emae@2022;ApplicationIntent=ReadOnly</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
